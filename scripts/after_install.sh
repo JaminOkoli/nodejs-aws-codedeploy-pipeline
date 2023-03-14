@@ -7,5 +7,4 @@ echo 'npm install' >> /home/ec2-user/nodejs-aws-codedeploy-pipeline/deploy.log
 sudo apt install curl dirmngr apt-transport-https lsb-release ca-certificates
 curl -sL https://deb.nodesource.com/setup_16.x | sudo -E bash -
 sudo apt install nodejs
-
 npm install >> /home/ec2-user/nodejs-aws-codedeploy-pipeline/deploy.log
